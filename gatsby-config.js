@@ -5,7 +5,7 @@ module.exports = {
     description: 'A regular food journal for regular people.',
     siteUrl: 'http://ehicouldeat.com/',
   },
-  pathPrefix: '/icouldeat',
+  // pathPrefix: '/icouldeat',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
