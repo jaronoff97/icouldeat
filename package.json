@@ -24,6 +24,8 @@
     "gatsby-transformer-remark": "^1.7.28",
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
+    "rc-slider": "^8.6.0",
+    "react-checkbox-group": "^3.3.4",
     "react-responsive-grid": "^0.3.4",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",

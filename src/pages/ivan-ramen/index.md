@@ -1,8 +1,8 @@
 ---
 title: Ivan Ramen
 date: 2018-01-13T23:03:04
-rating: 9/10
-cuisine: ramen, japanese
+rating: 9
+cuisine: ramen,japanese
 ---
 
 # Ivan Ramen
