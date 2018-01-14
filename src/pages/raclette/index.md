@@ -1,6 +1,8 @@
 ---
 title: Raclette
 date: 2018-01-08T22:27:42
+rating: 7/10
+cuisine: french
 ---
 
 # Raclette

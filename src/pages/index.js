@@ -29,6 +29,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
+              <img src={ require('.'+node.fields.slug+'picture.jpg') } />
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )

@@ -28,7 +28,7 @@ class Bio extends React.Component {
         />
         <p>
           Hello hello! I'm Jacob, and I love food! I'm going 
-          to be writing here about everywhere I go!.{' '}
+          to be writing here about everywhere I go!{' '}
           <a href="https://github.com/jaronoff97">
             This is my github if you're interested!
           </a>
