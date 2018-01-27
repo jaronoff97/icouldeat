@@ -5,8 +5,6 @@ cuisine: japanese,breakfast
 date: 2018-01-26T12:12:12
 ---
 
-# Hi-Collar
-
 ### Katsu Sandwich
 ![Katsu Sandwich](./picture.jpg)
 

@@ -5,8 +5,6 @@ cuisine: italian,wine-bar
 date: 2018-01-13T12:30:35
 ---
 
-# Terra
-
 ### Truffle Mac and Cheese
 ![Truffle Mac and Cheese](./picture.jpg)
 

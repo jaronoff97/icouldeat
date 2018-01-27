@@ -9,6 +9,7 @@ import {Checkbox, CheckboxGroup} from 'react-checkbox-group';
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 import { rhythm } from '../utils/typography'
+import { Button } from 'react-buttons'
 
 class FilterBox extends React.Component {
 
@@ -38,9 +39,12 @@ class FilterBox extends React.Component {
     // const cuisines = gqlData.map(el=>{el.node.frontmatter.cuisine})
 
     return (
-      <div style={{backgroundColor: "#c9d3e2", color: "#191919"}}>
+      <div style={{border: "1px solid black"}}>
         <div style={{margin: rhythm(1/4)}}>
           <p>Filter by Cuisines</p>
+          <div>
+            <Button faIcon="plus" onClick={this.props.toggle}>Toggle All Cuisines</Button>
+          </div>
           <CheckboxGroup 
             name="cuisines" 
             value={this.props.currentCuisines}

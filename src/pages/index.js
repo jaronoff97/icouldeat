@@ -13,7 +13,8 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     this.state = {
         minRating: 0, 
-        cuisines:posts.reduce((acc, r)=>acc.concat(r.node.frontmatter.cuisine.split(',')),[])
+        cuisines:posts.reduce((acc, r)=>acc.concat(r.node.frontmatter.cuisine.split(',')),[]),
+        allOn: false
     };
   }
 
@@ -36,6 +37,16 @@ class BlogIndex extends React.Component {
       }))
     }
 
+    var toggleState = (data) => {
+      this.setState(prevState => {
+        return {
+                  ...prevState,
+                  cuisines: prevState.allOn ? cuisines : [],
+                  allOn: !prevState.allOn
+            }
+      })
+    }
+
     return (
       <div>
         <Helmet title={siteTitle} />
@@ -44,12 +55,13 @@ class BlogIndex extends React.Component {
           onChange={onRatingChange} 
           cuisines={cuisines} 
           currentCuisines={this.state.cuisines}
+          toggle={toggleState}
           onCuisineChange={onCuisineChange}/>
         {posts.map(({ node }) => {
           if(!this.state.cuisines.some(r=> node.frontmatter.cuisine.split(',').includes(r))) {
             return
           }
-          if (this.state.minRating>parseInt(node.frontmatter.rating)) {
+          if (this.state.minRating>parseFloat(node.frontmatter.rating)) {
             return
           }
           const title = get(node, 'frontmatter.title') || node.fields.slug
@@ -65,8 +77,9 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <img src={ require('.'+node.fields.slug+'picture.jpg') } />
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <img src={ require('.'+node.fields.slug+'picture.jpg') } />
+              </Link>
             </div>
           )
         })}
@@ -87,7 +100,6 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }

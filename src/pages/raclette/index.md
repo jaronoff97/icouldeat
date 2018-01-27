@@ -5,9 +5,6 @@ rating: 5
 cuisine: french
 ---
 
-# Raclette
-
-
 ### Regular Raclette
 ![Raclette](./picture.jpg)
 

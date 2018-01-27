@@ -5,9 +5,6 @@ rating: 9
 cuisine: ramen,japanese
 ---
 
-# Ivan Ramen
-
-
 ### Pork Buns
 ![Ivan Ramen](./picture-1.jpg)
 
