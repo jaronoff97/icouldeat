@@ -11,6 +11,9 @@ mkdir $DIR
 touch $DIR/index.md
 echo "---">>$DIR/index.md
 echo "title: REPLACE">>$DIR/index.md
+echo "rating: REPLACE">>$DIR/index.md
+echo "cuisine: REPLACE">>$DIR/index.md
 echo "date: "$now>>$DIR/index.md
 echo "---">>$DIR/index.md
 echo "POST CREATED"
+open $DIR
