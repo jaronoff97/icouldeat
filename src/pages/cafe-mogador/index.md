@@ -1,0 +1,13 @@
+---
+title: Cafe Mogador
+rating: 9
+cuisine: lunch,brunch,breakfast,mediterranean
+date: 2018-01-28T23:40:25
+---
+
+### Moroccan Benedict
+![Moroccan Benedict](./picture.jpg)
+
+For $18 you get a beautiful Mediterranean breakfast; eggs benedict (I got mine with this wonderful middle-eastern tomato sauce), a cup of ginger tea, and a glass of orange juice. The eggs benedict was perfect, it had a great hollaindaise sauce on top of a toasted english muffin, with a perfectly poached egg. On the side were some greens and some of the best breakfast potatoes I've had. The potatoes were creamy on the inside, and just a little bit crispy on the outside. Normally I like very crispy on the outside, but because the inside was really smooth and warm, it was perfect. This is the first time I was able to get in, the line is normally an hour wait, so if you go prepare to wait and be happy you may not have to.
+
+Rating: 9/10
