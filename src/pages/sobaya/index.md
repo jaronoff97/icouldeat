@@ -1,0 +1,14 @@
+---
+title: Sobaya
+rating: 9
+cuisine: soba,ramen,japanese
+date: 2018-02-09T18:34:50
+---
+
+
+### Kama-Age with Chicken and Mushrooms
+![Kama-Age with Chicken and Mushrooms](./picture.jpg)
+
+I really liked sobaya, it was a very packed restaurant filled with amazing scents of noodles and soup. I decided to go for the traditional soba dish of Kama-age where you dip your noodles in to a broth (similar to Ivan Ramen's tsukemen). Because I was very hungry I decided to get a side of chicken and mushrooms. The chicken was very tasty, but the mushrooms were amazing! They were really juicy and flavorful and added a good amount of ~~umami~~ to the dish. If I didn't get the side dish, the whole dish would have cost around $10-12 which is very worth it for the amount of food that is. I would highly recommend this to anyone looking for a pleasant change up from the usual ramen spot.
+
+Rating: 9/10

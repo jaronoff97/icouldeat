@@ -1,0 +1,13 @@
+---
+title: Cafeteria
+rating: 7.5
+cuisine: american,brunch,dinner
+date: 2018-02-10T18:32:36
+---
+
+### Roast Chicken
+![Roast Chicken](./picture.jpg)
+
+Cafeteria is a great place for comfort food in a pinch, it's always busy, but it doesn't take long to get a table. They have a bunch of great options on the menu, with some really good appetizers. I also like the ambiance, it's a good nosie level with really cool lighting. I've always enjoyed a solid meal like this one. The price is a bit much, but it makes a lot of sense for a restaurant like this in NYC.
+
+Rating: 7.5/10

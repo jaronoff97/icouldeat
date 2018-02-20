@@ -1,0 +1,18 @@
+---
+title: Jun-Men Ramen
+rating: 8.5
+cuisine: ramen,japanese
+date: 2018-02-14T18:31:20
+---
+
+
+### Sweet Potato Fries
+![Sweet Potato Fries](./picture1.jpg)
+
+### Uni Mushroom Ramen
+![Uni Mushroom Ramen](./picture.jpg)
+
+This place was a perfect modern ramen shop. The lights were dim, the noise was loud, but you could still talk, and they had some good music playing. Behind the counter were the chefs working hard. My friend and I ordered the BBQ Pork Buns to start as well as the sweet potato fries. I'm very sure that the BBQ pork buns were among the best I've ever had. The fries were also awesome; very cripsy on the outside but creamy on the inside, they also came with a great mayo. For my main I got the uni mushroom mazeman, which was really good, but very heavy. It tasted almost like pasta because it was so rich. It had classic pasta ingredients as well like pancetta. It was amazing, but not my favorite mazeman I've ever had (the best one was Yume Wo Katare's mushroom mazeman at their pop-up over the summer). I definitely felt the prices were fair though, the pork buns were very reasonably priced, and the ramen I got was expensive, which made sense given the ingredients.
+
+Rating: 8.5/10
+
