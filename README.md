@@ -1,8 +1,9 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# Jacob Aronoff's Food Adventures
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+Hello! This is where I'll be documenting all of the restaurants I'm going to.
 
-## Running in development
+
+## Setup
+
+### Running in development
 `gatsby develop`
