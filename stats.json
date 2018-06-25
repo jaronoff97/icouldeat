@@ -1,0 +1,176 @@
+{
+  "assetsByChunkName": {
+    "path---udon-west": [
+      "path---udon-west-51718dc08ab7000c5fcc.js",
+      "path---udon-west-51718dc08ab7000c5fcc.js.map"
+    ],
+    "path---spaghetti-incident": [
+      "path---spaghetti-incident-bb6385a7b2de1961ef85.js",
+      "path---spaghetti-incident-bb6385a7b2de1961ef85.js.map"
+    ],
+    "path---raclette": [
+      "path---raclette-ffb763d021d2a92796ff.js",
+      "path---raclette-ffb763d021d2a92796ff.js.map"
+    ],
+    "path---cafe-mogador": [
+      "path---cafe-mogador-bb19629a0399935241b7.js",
+      "path---cafe-mogador-bb19629a0399935241b7.js.map"
+    ],
+    "path---ushiwakamaru": [
+      "path---ushiwakamaru-0d219dec8b53c57f60df.js",
+      "path---ushiwakamaru-0d219dec8b53c57f60df.js.map"
+    ],
+    "path---mr-taka": [
+      "path---mr-taka-af414b14bf8ce5a37471.js",
+      "path---mr-taka-af414b14bf8ce5a37471.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-2734b50dac1372aecd3c.js",
+      "component---src-pages-index-js-2734b50dac1372aecd3c.js.map"
+    ],
+    "path---brooklyn-bagel-company": [
+      "path---brooklyn-bagel-company-dd6b0d9db764f8aee808.js",
+      "path---brooklyn-bagel-company-dd6b0d9db764f8aee808.js.map"
+    ],
+    "path---momosan": [
+      "path---momosan-1b3b03240e83db20fc2b.js",
+      "path---momosan-1b3b03240e83db20fc2b.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---benemon": [
+      "path---benemon-b88f53915dc909c86da9.js",
+      "path---benemon-b88f53915dc909c86da9.js.map"
+    ],
+    "path---eisenbergs": [
+      "path---eisenbergs-eff1f659aa9c2d6f3f0b.js",
+      "path---eisenbergs-eff1f659aa9c2d6f3f0b.js.map"
+    ],
+    "path---beauty-and-essex": [
+      "path---beauty-and-essex-f73521492e7477da6d3c.js",
+      "path---beauty-and-essex-f73521492e7477da6d3c.js.map"
+    ],
+    "path---terra": [
+      "path---terra-357e259cc3630f816607.js",
+      "path---terra-357e259cc3630f816607.js.map"
+    ],
+    "path---noodle-bar-brushstroke": [
+      "path---noodle-bar-brushstroke-1305bd64aed7d6d14ac8.js",
+      "path---noodle-bar-brushstroke-1305bd64aed7d6d14ac8.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---hi-collar": [
+      "path---hi-collar-3e8fabf8b1bd4f2fa86e.js",
+      "path---hi-collar-3e8fabf8b1bd4f2fa86e.js.map"
+    ],
+    "path---decoy": [
+      "path---decoy-526c35408892333dcc16.js",
+      "path---decoy-526c35408892333dcc16.js.map"
+    ],
+    "path---mud-spot": [
+      "path---mud-spot-6192fba3c5d1d3e897ac.js",
+      "path---mud-spot-6192fba3c5d1d3e897ac.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-b1fed94293144b9cf76e.js",
+      "component---src-templates-blog-post-js-b1fed94293144b9cf76e.js.map"
+    ],
+    "path---selamat-pagi": [
+      "path---selamat-pagi-0ebd813648fff910bc3f.js",
+      "path---selamat-pagi-0ebd813648fff910bc3f.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-a705fae20123a595fb7f.js",
+      "component---src-layouts-index-js-a705fae20123a595fb7f.js.map"
+    ],
+    "path---ivan-ramen": [
+      "path---ivan-ramen-0534fc779494c3b0e0b4.js",
+      "path---ivan-ramen-0534fc779494c3b0e0b4.js.map"
+    ],
+    "path---bali-kitchen": [
+      "path---bali-kitchen-d50be32da39b3d869c9b.js",
+      "path---bali-kitchen-d50be32da39b3d869c9b.js.map"
+    ],
+    "path---maison-pickle": [
+      "path---maison-pickle-0e53355705bb6036feb3.js",
+      "path---maison-pickle-0e53355705bb6036feb3.js.map"
+    ],
+    "path---kame-ramen": [
+      "path---kame-ramen-8af94111acbb5cadb78c.js",
+      "path---kame-ramen-8af94111acbb5cadb78c.js.map"
+    ],
+    "path---index": [
+      "path---index-31d4111d4a8446f81328.js",
+      "path---index-31d4111d4a8446f81328.js.map"
+    ],
+    "path---sobaya": [
+      "path---sobaya-8e40f7d39d93ded69479.js",
+      "path---sobaya-8e40f7d39d93ded69479.js.map"
+    ],
+    "commons": [
+      "commons-92dc2cb720379d2a0bae.js",
+      "build-js-styles.css",
+      "commons-92dc2cb720379d2a0bae.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---murrays-cheese-shop": [
+      "path---murrays-cheese-shop-0320290b18aecbc58b08.js",
+      "path---murrays-cheese-shop-0320290b18aecbc58b08.js.map"
+    ],
+    "path---dhaulagiri-kitchen": [
+      "path---dhaulagiri-kitchen-fa0d0ef114a9e5992830.js",
+      "path---dhaulagiri-kitchen-fa0d0ef114a9e5992830.js.map"
+    ],
+    "path---joseph-leonard": [
+      "path---joseph-leonard-bf663f99b983fadbbeac.js",
+      "path---joseph-leonard-bf663f99b983fadbbeac.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---baohaus": [
+      "path---baohaus-be39cfda6df443cdc87b.js",
+      "path---baohaus-be39cfda6df443cdc87b.js.map"
+    ],
+    "app": [
+      "app-b60539a5dcf760109e23.js",
+      "build-js-styles.css",
+      "app-b60539a5dcf760109e23.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---narcissa": [
+      "path---narcissa-498853c57b9f4593220e.js",
+      "path---narcissa-498853c57b9f4593220e.js.map"
+    ],
+    "path---tipsy-parson": [
+      "path---tipsy-parson-2e0cda68222dbe3666a7.js",
+      "path---tipsy-parson-2e0cda68222dbe3666a7.js.map"
+    ],
+    "path---cafeteria": [
+      "path---cafeteria-cb8d8fcb7f0eb6ac41b8.js",
+      "path---cafeteria-cb8d8fcb7f0eb6ac41b8.js.map"
+    ],
+    "path---zenkichi": [
+      "path---zenkichi-14f79ce3d9223aeadbc4.js",
+      "path---zenkichi-14f79ce3d9223aeadbc4.js.map"
+    ],
+    "path---jun-men-ramen": [
+      "path---jun-men-ramen-9abb0cf37e6a11c0131e.js",
+      "path---jun-men-ramen-9abb0cf37e6a11c0131e.js.map"
+    ],
+    "path---chefs-club-counter": [
+      "path---chefs-club-counter-a416a50489d3273ec9e0.js",
+      "path---chefs-club-counter-a416a50489d3273ec9e0.js.map"
+    ],
+    "path---momoya": [
+      "path---momoya-ad74ff146a688893423b.js",
+      "path---momoya-ad74ff146a688893423b.js.map"
+    ]
+  }
+}
