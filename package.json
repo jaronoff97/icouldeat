@@ -1,63 +1,37 @@
 {
-  "name": "I-Could-Eat",
-  "description": "Food journal",
-  "version": "1.0.1",
-  "author": "Jacob Aronoff <jacobaronoff45@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/jaronoff97/icouldeat/issues"
+  "name": "icouldeat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "gatsby": "^1.9.153",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-feed": "^1.3.15",
-    "gatsby-plugin-google-analytics": "^1.0.15",
-    "gatsby-plugin-offline": "^1.0.12",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sharp": "^1.6.24",
-    "gatsby-plugin-typography": "^1.7.10",
-    "gatsby-remark-copy-linked-files": "^1.5.25",
-    "gatsby-remark-images": "^1.5.36",
-    "gatsby-remark-prismjs": "^1.2.11",
-    "gatsby-remark-responsive-iframe": "^1.4.16",
-    "gatsby-remark-smartypants": "^1.4.10",
-    "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.28",
-    "gatsby-transformer-sharp": "^1.6.16",
-    "lodash": "^4.17.4",
-    "rc-slider": "^8.6.0",
-    "react-addons-pure-render-mixin": "^15.6.2",
-    "react-buttons": "^0.0.11",
-    "react-checkbox-group": "^3.3.4",
-    "react-responsive-grid": "^0.3.4",
-    "typeface-merriweather": "0.0.43",
-    "typeface-montserrat": "0.0.43",
-    "typography-theme-wordpress-2016": "^0.15.10"
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.0.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/mdx": "^2.0.10",
+    "date-fns": "^2.30.0",
+    "gray-matter": "^4.0.3",
+    "next": "13.4.19",
+    "next-mdx-remote": "^4.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-plugin-react": "^7.5.1",
-    "gh-pages": "^1.1.0",
-    "prettier": "^1.10.2"
-  },
-  "homepage": "https://github.com/jaronoff97/icouldeat#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaronoff97/icouldeat.git"
-  },
-  "scripts": {
-    "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "make-post": "./make_post.sh",
-    "deploy": "gpom",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
   }
 }
