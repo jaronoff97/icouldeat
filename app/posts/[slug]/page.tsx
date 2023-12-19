@@ -1,7 +1,7 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getPostBySlug, getAllPosts } from "../../../lib/api";
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug, ["title", "author", "content"]);
 
   return (
@@ -17,9 +17,9 @@ export default async function Post({ params }: { params: { slug: string } }) {
   );
 }
 
-export const generateStaticParams = async () => {
-  const posts = getAllPosts(["slug"]);
+export async function generateStaticParams() {
+  const posts = getAllPosts(["slug", "date"]);
   return posts.map((post) => ({
     slug: encodeURI(post.slug),
   }));
-};
+}

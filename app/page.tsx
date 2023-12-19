@@ -1,7 +1,6 @@
-import { getAllPosts } from "../lib/api";
-import PostPreview from "../components/PostPreview";
-import PostHero from "../components/PostHero";
 import Link from "next/link";
+import PostPreview from "../components/PostPreview";
+import { getAllPosts } from "../lib/api";
 
 export default function Home() {
   const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
@@ -33,7 +32,7 @@ export default function Home() {
         </div>
         <div className="h-16"></div>
         <Link
-          href="/blog"
+          href="/posts"
           className="text-3xl hover:text-gray-300 hover:underline"
         >
           Read More{" -> "}
