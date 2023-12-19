@@ -1,9 +1,17 @@
 import Link from "next/link";
 import PostPreview from "../components/PostPreview";
+import PostHero from "../components/PostHero";
 import { getAllPosts } from "../lib/api";
 
 export default function Home() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  const posts = getAllPosts([
+    "title",
+    "date",
+    "excerpt",
+    "coverImage",
+    "slug",
+    "rating",
+  ]);
   const recentPosts = posts.slice(0, 2);
 
   return (
@@ -18,7 +26,7 @@ export default function Home() {
 
         <div className="h-12"></div>
 
-        {/* <PostHero /> */}
+        <PostHero />
 
         <div className="h-16"></div>
 

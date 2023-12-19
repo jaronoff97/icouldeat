@@ -37,7 +37,6 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
 
   return items;
 }
-
 export function getArchivedPosts(fields: string[] = []) {
   const slugs = getPostSlugs();
   const posts = slugs

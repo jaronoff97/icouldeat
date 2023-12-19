@@ -2,7 +2,14 @@ import { getAllPosts } from "../../lib/api";
 import PostPreview from "../../components/PostPreview";
 
 export default function Blog() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  const posts = getAllPosts([
+    "title",
+    "date",
+    "excerpt",
+    "coverImage",
+    "slug",
+    "rating",
+  ]);
 
   return (
     <div className="container mx-auto px-5">
@@ -11,7 +18,7 @@ export default function Blog() {
 
         <div className="h-12"></div>
 
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-32 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-32">
           {posts.map((post) => (
             <div key={post.title}>
               <PostPreview post={post} path="posts" />

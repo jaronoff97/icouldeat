@@ -1,36 +1,37 @@
-
 import DateFormatter from "./DateFormatter";
 import Image from "next/image";
 import Link from "next/link";
-import { getPostBySlug } from "../lib/api";
+import { getAllPosts, getPostBySlug } from "../lib/api";
 
 type Items = {
   [key: string]: string;
 };
 
 export default function PostHero() {
-  const heroPost = getPostBySlug("example", [
+  const heroPost = getAllPosts([
     "title",
     "excerpt",
     "slug",
     "date",
     "coverImage",
-  ]);
+  ])[0];
 
   return (
     <Link href={`/posts/${heroPost.slug}`}>
-      <div className="w-full mx-auto group">
-        <Image
-          alt={`cover image for ${heroPost.title}`}
-          src={heroPost.coverImage}
-          width={400}
-          height={400}
-          style={{ width: "100%" }}
-        />
+      <div className="group mx-auto w-full">
+        {heroPost.coverImage && (
+          <Image
+            alt={`cover image for ${heroPost.title}`}
+            src={heroPost.coverImage}
+            width={400}
+            height={400}
+            style={{ width: "100%" }}
+          />
+        )}
 
-        <div className="grid mt-4 md:grid-cols-2 grid-cols-1">
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-2">
           <div className="mb-2">
-            <p className="font-semibold text-xl group-hover:underline">
+            <p className="text-xl font-semibold group-hover:underline">
               {heroPost.title}
             </p>
             <DateFormatter dateString={heroPost.date} />
