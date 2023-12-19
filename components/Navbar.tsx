@@ -1,11 +1,10 @@
-
 import Link from "next/link";
 
 export default function Navbar() {
   return (
     <div>
-      <nav className="container py-2 mx-auto">
-        <ul className="flex space-x-6 text-lg justify-center">
+      <nav className="container mx-auto py-2">
+        <ul className="flex justify-center space-x-6 text-lg">
           <li>
             <NavLink href="/">Home</NavLink>
           </li>
