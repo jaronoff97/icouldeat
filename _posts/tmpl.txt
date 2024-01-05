@@ -1,0 +1,12 @@
+---
+title: TITLE
+rating: 10
+cuisine: italian
+date: '<date>'
+coverImage: '<placeholder>'
+author:
+  name: Jacob Aronoff
+  picture: '/assets/blog/authors/jacob.jpeg'
+---
+
+# TITLE

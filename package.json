@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "new-post": "DATE=$(date '+%Y-%m-%d'); cp _posts/tmpl.txt _posts/$DATE-post.mdx; ISODATE=$(date +'%Y-%m-%dT%H:%M:%S%z'); sed -i '' -e 's/<date>/'$ISODATE'/g' _posts/2024-01-04-post.mdx"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",
