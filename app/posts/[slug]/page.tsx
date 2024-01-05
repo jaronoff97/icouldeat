@@ -13,13 +13,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
   return (
     <div className="prose container mx-auto">
-      <main>
-        <div className="h-16 w-full">
-          <p className="text-2xl">{post.title}</p>
-          <p className="text-gray-400">{post.author.name}</p>
-          <MDXRemote source={post.content} />
-        </div>
-      </main>
+      <p className="text-2xl">{post.title}</p>
+      <p className="text-gray-400">{post.author.name}</p>
+      <MDXRemote source={post.content} />
     </div>
   );
 }

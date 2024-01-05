@@ -12,7 +12,7 @@ export default function Home() {
     "slug",
     "rating",
   ]);
-  const recentPosts = posts.slice(0, 2);
+  const recentPosts = posts.slice(1, 3);
 
   return (
     <div className="container mx-auto px-5">
