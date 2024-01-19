@@ -3,11 +3,12 @@ type Blog = {
   year: number;
   url: string;
   emoji: string;
-  description: string;
+  description?: string;
+  rss_url?: string;
 };
 
 export default function Webring() {
-  const ring: [Blog] = [
+  const ring: Blog[] = [
     {
       name: "Steve Gattuso",
       year: 2013,
@@ -48,9 +49,6 @@ export default function Webring() {
         "Food blog where I talk about all the things I cook and eat. Tech blog with some random content at https://jaronoff.com/",
     },
   ];
-  /*
-
-  */
 
   return (
     <div className="container mx-auto px-5">
