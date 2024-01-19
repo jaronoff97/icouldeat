@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blogs {
+    margin: 0 0 15px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.blog {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.blog--meta {
+    font-size: 0.75em;
+}
+
+.blog--text {
+    max-width: 100%;
+}
+
+.blog--title {
+    display: block;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+
+    @include on-mobile {
+        font-size: 1em;
+        text-overflow: inherit;
+        white-space: inherit;
+        overflow: auto;
+    }
+}
+
+.blog--emoji {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.blog--description {
+    color: $color-dark;
+    font-size: 0.75em;
+}

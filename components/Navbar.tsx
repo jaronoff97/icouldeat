@@ -15,6 +15,9 @@ export default function Navbar() {
             <NavLink href="/archive">Archives</NavLink>
           </li>
           <li>
+            <NavLink href="/webring">Webring</NavLink>
+          </li>
+          <li>
             <NavLink href="https://github.com/jaronoff97/icouldeat">
               Github
             </NavLink>
