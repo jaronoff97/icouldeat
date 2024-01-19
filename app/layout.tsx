@@ -42,6 +42,11 @@ export default function RootLayout({
                   Home
                 </a>
               </li>
+              <li>
+                <a href="/feed.xml" className="me-4 hover:underline md:me-6">
+                  RSS Feed
+                </a>
+              </li>
             </ul>
           </div>
         </footer>
