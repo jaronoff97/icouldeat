@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
@@ -25,6 +26,7 @@ export default function RootLayout({
             className="h-12 from-transparent to-neutral-800"
           ></div>
           {children}
+          <SpeedInsights />
           <div id="page-bottom-spacer" className="bottom-1/4 h-16"></div>
         </main>
         <footer className="m-4 rounded-lg bg-white shadow dark:bg-gray-800">
